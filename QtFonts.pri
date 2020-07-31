@@ -12,4 +12,4 @@ SOURCES += \
     $$PWD/fontconfig.cpp
 
 OTHER_FILES += \
-    $$PWD/Fonts.dox
+    $$PWD/README.md

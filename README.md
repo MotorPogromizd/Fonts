@@ -20,13 +20,13 @@ Clone in root project folder
 ### Include in project
 To use this module in qt app add to `.pro` file
 ```
-include(Fonts/Fonts.pri)
+include(QtFonts/QtFonts.pri)
 ```
 ### Configure in cpp
 To use fonts in app insert this code in main.cpp
 ```
 // main.cpp
-#include "Fonts/fontconfig.h"
+#include "QtFonts/fontconfig.h"
 ```
 After `QQmlApplicationEngine engine` insert:
 ```

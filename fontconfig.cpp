@@ -6,7 +6,7 @@
 
 void Font::init(QQmlApplicationEngine& engine) {
     QFontDatabase fontDatabase;
-    if (fontDatabase.addApplicationFont(":/Fonts/font/fontello.ttf") == -1) {
+    if (fontDatabase.addApplicationFont(":/QtFonts/font/fontello.ttf") == -1) {
 #ifndef QT_NO_DEBUG
         qWarning() << "Failed to load fontello.ttf";
 #else
